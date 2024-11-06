@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,inital-scale=1.0">
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel = "stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/contact_us.css">
+        <!--Page title-->
+        <title>Contact Us - Aqacia</title>
+    </head>
+    <body>
+        <!-------------------navbar-------------------------->     
+        <header>
+            <div class="header-container">
+                <nav>
+                    <div class="menu-icons">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-times"></i>
+                    </div>
+
+                    <a href="./index.html" class="logo"><img src="./assets/images/aqacia_logo.png" id="logo" alt="profile"></a>
+
+                    <ul class="nav-list">
+                        <li >
+                            <a href="./index.html" >Home</a>
+                        </li>
+                        <li>
+                            <a href="#" >What We Do<i class="fas fa-caret-down"></i></a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="./why_us.html">Why Us</a>
+                                </li>
+                                <li>
+                                    <a href="./service_offerings.html">Service Offerings</a>
+                                </li>
+                                <li>
+                                    <a href="./products.html">Products</a>
+                                </li>
+                                <li>
+                                    <a href="./customer_journey.html">Customer Journey</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" >About Us<i class="fas fa-caret-down"></i></a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="./about_us.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="./our_team.html">Our Team</a>
+                                </li>
+                                <li>
+                                    <a href="./research.html">Research</a>
+                                </li>
+                                <li>
+                                    <a href="./media.html">Media</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="move-right-active btn">
+                            <a href="./contact_us.html">Contact Us</a>
+                        </li>
+
+                        
+                    </ul>
+                </nav>
+            </div>
+            
+        </header>
+
+        <!--------------------------------------background----------------------------------->
+        <!-- particles.js container -->
+        <div id="particles-js"></div>
+
+
+        <!--------------------------------------------main------------------------------------------>
+        <div class="container">
+            <main class="row">
+                <!------------------ Left Section  ------------------------>
+                <section class="col left">
+                    <!------------------ contact info  ------------------------>
+                    <div class="contact-title">
+                        <h2>Get In Touch</h2>
+                        <p>Want to get in contact with us to chat about how we might be able to help? Please submit a request via the form below and we will endeavour to contact you as soon as possible. Alternatively, you can also email <span class="highlight">info@aqacia.com.</span></p>
+                    </div>
+
+                    <div class="contact-info">
+                        <div class="icon-group">
+                            <div class="icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="details">
+                                <span>Phone</span>
+                                <span>+61 XXX XXX XXX</span>
+                            </div>
+                        </div>
+
+                        <div class="icon-group">
+                            <div class="icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="details">
+                                <span>Email</span>
+                                <span>info@aqacia.com</span>
+                            </div>
+                        </div>
+
+                        <div class="icon-group">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="details">
+                                <span>Location</span>
+                                <span>X Street, Y Road, Z City</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------------------ social media ------------------------>
+                    <div class="social-media">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </section>
+
+                <!------------------ Left Section  ------------------------>
+                <section class="col right">
+
+                    <!------------------ form ------------------------>
+                    <form action="https://formsubmit.co/28fb3d61df556cccf1c762aab9450f95" class="message-form" method="POST">
+
+                        <div class="input-group half-width">
+                            <input type="text" name="" required="required">
+                            <label>Your Name</label>
+                        </div>
+                        <div class="input-group half-width">
+                            <input type="email" id="email" name="" required="required">
+                            <label>Email</label>
+                        </div>
+                        <div class="input-group full-width">
+                            <input type="text" name="" required="required" >
+                            <label>Subject</label>
+                        </div>
+                        <div class="input-group full-width">
+                            <textarea name="" required="required" ></textarea>
+                            <label>Say Something</label>
+                        </div>
+                        <div class="input-group full-width">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </section>
+            </main>
+        </div>
+
+
+
+        <!--------------------------------------script----------------------------------->
+        <script src="./js/navbar.js"></script>
+        <script src="./particles.js-master/particles.js"></script>
+        <script src="./js/app.js"></script>
+    </body>
+</html>
